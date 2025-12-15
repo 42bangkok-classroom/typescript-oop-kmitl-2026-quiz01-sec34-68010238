@@ -7,7 +7,7 @@ switch(color){
     case"yellow":
         console.log("Caution");
         break;
-    case"Green":
+    case"green":
         console.log("Go");
         break;
     default:
