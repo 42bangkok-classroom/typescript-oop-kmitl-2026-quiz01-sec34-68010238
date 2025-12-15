@@ -6,7 +6,6 @@ if (!password) {
 const hasValidLength = password.length >= 8;
 const hasNumber = /\d/.test(password);
 const hasUppercase = /[A-Z]/.test(password);
-
 if(hasValidLength && hasNumber && hasUppercase){
     console.log("Valid");
 } 
